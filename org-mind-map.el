@@ -359,7 +359,7 @@ The EL argument is not used, but is needed for compatibility."
 	      (concat "<tr><td colspan=\"" (int-to-string (length tags)) "\" ")
 	    "<tr><td")
 	  (if color (concat " bgcolor=\"" color "\" "))
-          ">" (org-mind-map-extract-org-link title) "</td></tr>"
+          ">fart" (org-mind-map-extract-org-link title) "</td></tr>"
 	  (if (> (length tags) 0)
 	      (concat
 	       "<tr>" (mapconcat (-partial 'org-mind-map-add-color hm) tags "") "</tr>"))
